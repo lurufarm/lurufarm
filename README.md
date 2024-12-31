@@ -1,7 +1,6 @@
 
 <div align="center">  
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FFFF66&height=200&section=header&text=lurufarm&fontSize=90" />
-## Hi there 👋
 
 안녕하세요! 개발자 지망생 lurufarm의 깃허브입니다 😃
 
