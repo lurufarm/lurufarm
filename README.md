@@ -3,10 +3,10 @@
 
 ## Hi there 👋
 
-안녕하세요! 개발자 지망생 lurufarm의 깃허브입니다 😃
+# 안녕하세요! 개발자 지망생 lurufarm의 깃허브입니다 😃
 
-## 🛠 Tech Stack 🛠
-
+# 🛠 Tech Stack 🛠
+<img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=로고이름&logoColor=white"/>
 <!--
 **lurufarm/lurufarm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
