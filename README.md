@@ -1,7 +1,6 @@
 
 <div align="center">  
-<img src="https://capsule-render.vercel.app/api?type=waving&color=F1007E&height=200&section=header&text=lurufarm&fontSize=90" />
-(https://capsule-render.vercel.app/api?type=cylinder&height=200&color=gradient&text=lurufarm&section=header&reversal=true&fontAlign=74&fontAlignY=78&fontSize=50&rotate=0&animation=fadeIn&descAlign=60)
+<img src="https://capsule-render.vercel.app/api?type=cylinder&height=200&color=gradient&text=lurufarm&section=header&reversal=true&fontAlign=74&fontAlignY=78&fontSize=50&rotate=0&animation=fadeIn&descAlign=60" />
   
 안녕하세요! 개발자 지망생 lurufarm의 깃허브입니다 😃
 
