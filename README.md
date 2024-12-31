@@ -5,10 +5,32 @@
 
 안녕하세요! 개발자 지망생 lurufarm의 깃허브입니다 😃
 
-### 🛠 Tech Stack 🛠
+### ⚡ Tech Stack ⚡
 
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Unity-unity?style=flat&logo=unity&logoColor=white"/>
+<div align="center">  
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/Unity-unity?style=flat&logo=unity&logoColor=white" />
+</div>
+
+### 🌱 Learning 🌱
+
+<div align="center">  
+	<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white" />
+	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
+	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
+</div>
+
+### 🎨 Tools 🎨
+
+<div align="center">  
+	<img src="https://img.shields.io/badge/Github-1817176?style=flat&logo=github&logoColor=white" />
+ 	<img src="https://img.shields.io/badge/Visual Studio-2F80ED?style=flat&logo=visualstudio&logoColor=white" />
+	<img src="https://img.shields.io/badge/SVN-E62431?style=flat&logo=svn&logoColor=white" />
+
+</div>
+
+
 <!--
 **lurufarm/lurufarm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
