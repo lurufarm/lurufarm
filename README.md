@@ -1,4 +1,11 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=lurufarm&fontSize=90" />
+
+
 ## Hi there 👋
+
+안녕하세요! 개발자 지망생 lurufarm의 깃허브입니다 😃
+
+## 🛠 Tech Stack 🛠
 
 <!--
 **lurufarm/lurufarm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
