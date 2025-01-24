@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #000000;
+    scroll-behavior: smooth;
+}
+
+a 
+{
+    transition: 0.5s;
+}
+
+.wrap {
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0; right: 0; top: 0;
+    color: #000000;
+    height: 180px;
+    z-index: 1000;
+}
+
+.navigation ul {
+    margin-top: 90px;
+    display: flex;
+    background: transparent;
+}
+
+.navigation ul li {
+    margin: 0 38px;
+    background: transparent;
+
+}
+
+.navigation ul li a {
+    background: transparent;
+}
+
+.inactive {
+    font-family: "Fira Code", serif;
+    font-size: 28.5px;
+    color: #D9D9D9;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.active 
+{
+    font-family: "Fira Code", serif;
+    font-size: 28.5px;
+    color: #F6490D;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* main */
+
+.mainText1 
+{
+    font-family: "Montserrat", serif;
+    font-size: 86px;
+    font-optical-sizing: auto;
+    color: #D9D9D9;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.mainText2 
+{
+    font-family: "Montserrat", serif;
+    font-size: 86px;
+    font-optical-sizing: auto;
+    color: #1DCED8;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.mainText3 
+{
+    font-family: "Fira Code", serif;
+    font-size: 25px;
+    color: #D9D9D9;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.mainText4 
+{
+    font-family: "Fira Code", serif;
+    font-size: 25px;
+    color: #F6490D;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#home
+{
+    height:100vh;
+    margin-top: 270px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    scroll-margin-top: 250px;
+}
+
+.homeTextWrapper1
+{
+    width: fit-content;
+    margin-left: 30%;
+    text-align: left;
+}
+
+.homeTextWrapper2
+{
+    margin-top: 5%;
+    margin-left: 25%;
+    /* margin-right: auto; */
+}
+
+/* introduce */
+
+#introduce 
+{
+    height: 100vh;
+    scroll-margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduceContent1
+{
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+    font-optical-sizing: auto;
+    color: #D9D9D9;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.introduceContent2
+{
+    font-family: "Fira Code", serif;
+    font-size: 15px;
+    font-optical-sizing: auto;
+    color: #D9D9D9;
+    font-weight: 50;
+    font-style: normal;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.squareIcon
+{
+    background-color: #1DCED8;
+    width: 10px;
+    height: 10px;
+}
+
+.contentWrapper
+{
+    width: 1200px;  /* 추가 */
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.contentWrapper1 
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 160px;
+}
+
+.introduceBox
+{
+    background-color: rgba(29, 206, 216, 0.2);
+    width: 292px;
+    height: 250px;
+    border: 1px solid #1DCED8;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.introduceBoxes 
+{
+    display: flex;
+    width: 100%;  /* 추가 */
+    justify-content: center;  /* 추가 */
+}
+
+.introduceBoxes ul 
+{
+    display: flex;
+    gap: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.divider 
+{
+    width: 100px;
+    height: 1px;
+    background-color: #1DCED8;
+    margin-top: 5px;
+    position: static;
+    top: 5%;
+    opacity: 30%;
+}
+
+/* project */
+
+#project
+{
+    height: 100vh;
+    scroll-margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contentWrapper2 
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 16px;
+}
+
+.contentWrapper3 
+{
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.projectSliderContainer 
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.projectSlider 
+{
+    display: flex;
+    margin-left: calc(50vw - (912px / 2));
+    margin-right: calc(50vw - (912px / 2));
+    width: max-content;
+    transition: transform 0.5s ease;
+}
+
+.projectSlide 
+{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 912px; /* projectBox1(612px) + gap(10px) + projectBox2(290px) */
+}
+
+.projectSlide + .projectSlide 
+{
+    margin-left: 500px;
+}
+
+.projectBox1
+{
+    background-color: rgba(29, 206, 216, 0.2);
+    width: 596px;
+    height: 500px;
+    border: 1px solid #1DCED8;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.projectContentFont
+{
+    font-family: "Fira Code", serif;
+    font-size: 13px;
+    font-optical-sizing: auto;
+    color: #D9D9D9;
+    font-weight: 50;
+    font-style: normal;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.projectBox2
+{
+    width: 282px;
+    height: 500px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.projectIndicator 
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.projectIndicator ul 
+{
+    display: flex;
+    gap: 20px;
+    background: transparent;
+}
+
+.indicator 
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #1DCED8;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.indicator:not(.active) 
+{
+    opacity: 0.3;
+}
+
+/* contact */
+
+#contact
+{
+    height: 70vh;
+    scroll-margin-top: 230px;
+}
+
+.contactBox
+{
+    background-color: rgba(29, 206, 216, 0.2);
+    width: 405px;
+    height: 395px;
+    border: 1px solid #1DCED8;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.iconBox
+{
+    width: 405px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon
+{
+    opacity: 0.3;
+    transform: scale(0.5);
+}
+
+.catImg
+{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contactFont1
+{
+    font-family: "Fira Code", serif;
+    font-size: 14px;
+    color: #D9D9D9;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-color: transparent;
+}
+
+.contactFont2
+{
+    font-family: "Fira Code", serif;
+    font-size: 14px;
+    color: #1DCED8;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: transparent;
+}
+
+.contactFont3
+{
+    font-family: "Fira Code", serif;
+    font-size: 12px;
+    color: #D9D9D9;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-color: transparent;
+}
+
+.contactFontAlign
+{
+    background-color: transparent;
+    text-align: left;
+}
