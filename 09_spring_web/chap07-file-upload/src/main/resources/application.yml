@@ -1,0 +1,7 @@
+spring:
+  servlet:
+    multipart:
+      location: D:/lecture/09_spring_web/chap07-file-upload
+      max-file-size: 10MB
+  mvc:
+    static-path-pattern: /static/**

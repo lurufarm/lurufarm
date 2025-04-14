@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple-string</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <h1>문자열 데이터 전송/응답 테스트</h1>
+  전달 값: <input type="text" name="keyword" id="param"><br>
+  응답 값: <p id="result"></p>
+
+  <h1>fetch</h1>
+  <button onclick="sendFetch();">fetch</button>
+
+    <script>
+        function sendFetch()
+        {
+            const keyword = document.querySelector("#param").value;
+            fetch('/fetch/simple-string?keyword=' + keyword)
+                .then(res => res.text())
+                .then(text => {
+                    console.log('응답 완료');
+                    document.querySelector('#result').innerText = text;
+                })
+        }
+    </script>
+
+    <h1>axios 라이브러리</h1>
+    <button onclick="sendAxios();">axios로 전송</button>
+
+    <script>
+        function sendAxios()
+        {
+            const keyword = document.querySelector("#param").value;
+            axios('/axios/simple-string?keyword=' + keyword)
+                .then(res => document.querySelector("#result").innerText = res.data);
+        }
+    </script>
+
+
+</body>
+</html>

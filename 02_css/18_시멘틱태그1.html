@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout with Navigation</title>
+    <style>
+        /* 전체 컨테이너 */
+        .container {
+            display: flex;
+            height: 100vh; /* 화면 높이로 컨테이너 크기 설정 */
+        }
+
+        /* header 스타일 */
+
+        /* nav 스타일 */
+
+        /* nav 메뉴 */
+
+        /* main 스타일 */
+        main {
+            display: grid; /* Grid 레이아웃 활성화 */
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            /* 컬럼의 개수를 자동으로 조정. 최소 300px, 최대 1fr(가용 공간 나눔)으로 크기를 설정 */
+            flex-grow: 1; 
+            /* flex-grow 속성은 각 자식 요소가 남은 공간을 얼마나 차지할지를 결정 
+            값이 1인 경우, 다른 요소들이 차지하지 않는 남은 공간을 균등하게 나누어 갖는다. */
+        }
+
+        /* footer 스타일 */
+
+        /* main 내의 article */
+        article {
+            width: 90%; /* 화면 크기에 따라 자동으로 조정 */
+            max-width: 800px; /* 최대 크기 제한 */
+            min-height: 200px; /* 최소 높이를 지정 */
+            height: auto; /* 높이는 콘텐츠에 따라 조정 */
+            background-color: yellowgreen;
+
+            /* article 안에 정렬할 요소(텍스트, 버튼, 이미지 등) 있을 때 사용 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>Header Section</header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        <main>
+            <article>Article 1</article>
+            <article>Article 2</article>
+            <article>Article 3</article>
+        </main>
+        <footer>Footer Section</footer>
+    </div>
+
+</body>
+</html>

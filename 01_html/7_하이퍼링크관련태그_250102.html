@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>하이퍼링크 관련 태그</h1>
+    <h3>a태그를 이용한 하이퍼링크 테스트</h3>
+    <ul>
+        <li><a href="1_글자관련태그_241231.html">글자 관련 태그</a></li>
+        <li><a href="2_목록관련태그_241231.html">목록 관련 태그</a></li>
+        <li><a href="3_표관련태그_250102.html">표 관련 태그</a></li>
+        <li><a href="4_영역관련태그_250102.html">영역 관련 태그</a></li>
+        <li><a href="5_이미지관련태그_250102.html">이미지 관련 태그</a></li>
+    </ul>
+    <br>
+    <!-- 
+    target 속성을 _self로 하면 기존 탭 활용, _blank로 하면 새 탭으로 열기를 할 수 있다.
+    디폴트는 _self로 적용되어있다.
+    -->
+    <ul>
+        <li><a href="https://www.naver.com">네이버</a></li>
+        <li><a href="https://www.google.com" target="_blank">구글(blank 적용)</a></li>
+        <li><a href="https://www.daum.net">다음</a></li>
+    </ul>
+    <br>
+    <!-- 
+    img 태그를 이용하여 링크를 걸 수 있다.
+    -->
+    <a href="http://www.w3schools.com" target="_blank">
+        <img src="sample/image/flower1.PNG" alt="꽃" width="30%" height="30%">
+    </a>
+    <!-- 
+    한 페이지 내에서 점프하는 앵커 만들기
+    -->
+    <h3 id="menu">한 페이지 내에서 점프하는 앵커 만들기</h3>
+    <ul>
+        <li><a href="#content1">본문내용1</a></li>
+        <li><a href="#content2">본문내용2</a></li>
+        <li><a href="#content3">본문내용3</a></li>
+    </ul>
+    <!-- 
+    a태그로 이동하고자 하는 태그에 id 속성값을 부여한다. (표식을 남김)
+    -->
+    <h4 id="content1">본문내용1</h4>
+    <pre>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, reprehenderit. Vero sapiente accusamus tempore excepturi. Deserunt consequatur alias magni dignissimos excepturi autem, odit soluta nam qui architecto impedit praesentium quibusdam.
+        A corrupti, sapiente fugiat accusantium quas commodi nobis! Commodi, id adipisci itaque, vero voluptate nisi nostrum necessitatibus corrupti non voluptatem dolore. Repudiandae, reprehenderit eos praesentium adipisci maxime a. Ea, rem!
+        Similique, quod, nisi, necessitatibus molestiae exercitationem incidunt alias aut aperiam minus dicta mollitia inventore blanditiis suscipit cupiditate cumque qui? Et quam a voluptatum voluptatibus qui fuga ducimus laborum assumenda eligendi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores illo dolorem temporibus, nulla cum praesentium libero tempora. Amet totam eaque dolores, ex voluptatibus ipsum doloremque dignissimos ad provident possimus?
+        Saepe consequuntur labore praesentium magni inventore distinctio deserunt ut eaque, optio et ullam, nisi, iste cupiditate. Vero pariatur saepe explicabo, qui laboriosam hic exercitationem voluptatibus corrupti, animi officia assumenda unde?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores sapiente dignissimos modi mollitia ut quaerat assumenda magnam voluptates officiis eveniet sit, minima ullam? Nulla, neque tenetur! Aperiam molestias praesentium odio.
+        Unde cumque sed minus, repellat illo mollitia maiores. Similique fugit nostrum eveniet unde obcaecati debitis eum nobis! Autem, esse tempora. Quo, autem quasi? Quas eum tempore consectetur nisi necessitatibus quos?
+        Esse libero dolorem, quod sed maxime, amet illo distinctio minima at voluptatem ad magnam nobis corrupti perferendis eligendi debitis consequuntur quam temporibus nostrum unde sunt culpa ullam obcaecati. Beatae, ratione.
+    </pre>
+    <br><br><br><br>
+    <br><br><br><br>
+    <h4 id="content2">본문내용2</h4>
+    <pre>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, reprehenderit. Vero sapiente accusamus tempore excepturi. Deserunt consequatur alias magni dignissimos excepturi autem, odit soluta nam qui architecto impedit praesentium quibusdam.
+        A corrupti, sapiente fugiat accusantium quas commodi nobis! Commodi, id adipisci itaque, vero voluptate nisi nostrum necessitatibus corrupti non voluptatem dolore. Repudiandae, reprehenderit eos praesentium adipisci maxime a. Ea, rem!
+        Similique, quod, nisi, necessitatibus molestiae exercitationem incidunt alias aut aperiam minus dicta mollitia inventore blanditiis suscipit cupiditate cumque qui? Et quam a voluptatum voluptatibus qui fuga ducimus laborum assumenda eligendi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores illo dolorem temporibus, nulla cum praesentium libero tempora. Amet totam eaque dolores, ex voluptatibus ipsum doloremque dignissimos ad provident possimus?
+        Saepe consequuntur labore praesentium magni inventore distinctio deserunt ut eaque, optio et ullam, nisi, iste cupiditate. Vero pariatur saepe explicabo, qui laboriosam hic exercitationem voluptatibus corrupti, animi officia assumenda unde?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores sapiente dignissimos modi mollitia ut quaerat assumenda magnam voluptates officiis eveniet sit, minima ullam? Nulla, neque tenetur! Aperiam molestias praesentium odio.
+        Unde cumque sed minus, repellat illo mollitia maiores. Similique fugit nostrum eveniet unde obcaecati debitis eum nobis! Autem, esse tempora. Quo, autem quasi? Quas eum tempore consectetur nisi necessitatibus quos?
+        Esse libero dolorem, quod sed maxime, amet illo distinctio minima at voluptatem ad magnam nobis corrupti perferendis eligendi debitis consequuntur quam temporibus nostrum unde sunt culpa ullam obcaecati. Beatae, ratione.
+    </pre>
+    <br><br><br><br>
+    <br><br><br><br>
+    <h4 id="content3">본문내용3</h4>
+    <pre>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, reprehenderit. Vero sapiente accusamus tempore excepturi. Deserunt consequatur alias magni dignissimos excepturi autem, odit soluta nam qui architecto impedit praesentium quibusdam.
+        A corrupti, sapiente fugiat accusantium quas commodi nobis! Commodi, id adipisci itaque, vero voluptate nisi nostrum necessitatibus corrupti non voluptatem dolore. Repudiandae, reprehenderit eos praesentium adipisci maxime a. Ea, rem!
+        Similique, quod, nisi, necessitatibus molestiae exercitationem incidunt alias aut aperiam minus dicta mollitia inventore blanditiis suscipit cupiditate cumque qui? Et quam a voluptatum voluptatibus qui fuga ducimus laborum assumenda eligendi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maiores illo dolorem temporibus, nulla cum praesentium libero tempora. Amet totam eaque dolores, ex voluptatibus ipsum doloremque dignissimos ad provident possimus?
+        Saepe consequuntur labore praesentium magni inventore distinctio deserunt ut eaque, optio et ullam, nisi, iste cupiditate. Vero pariatur saepe explicabo, qui laboriosam hic exercitationem voluptatibus corrupti, animi officia assumenda unde?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores sapiente dignissimos modi mollitia ut quaerat assumenda magnam voluptates officiis eveniet sit, minima ullam? Nulla, neque tenetur! Aperiam molestias praesentium odio.
+        Unde cumque sed minus, repellat illo mollitia maiores. Similique fugit nostrum eveniet unde obcaecati debitis eum nobis! Autem, esse tempora. Quo, autem quasi? Quas eum tempore consectetur nisi necessitatibus quos?
+        Esse libero dolorem, quod sed maxime, amet illo distinctio minima at voluptatem ad magnam nobis corrupti perferendis eligendi debitis consequuntur quam temporibus nostrum unde sunt culpa ullam obcaecati. Beatae, ratione.
+    </pre>
+    <br><br><br><br><br><br><br><br>
+    <a href="#menu">메뉴로 돌아가기</a>
+    <br><br><br><br><br><br><br><br>
+</body>
+
+</html>
